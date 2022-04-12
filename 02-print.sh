@@ -13,7 +13,7 @@ echo starting nginx service
 ##  COL Color code
 ## m - End of syntax
 ## 0 - disable color
-
+## Use single or double Quotes always
 ##Color codes
 
 echo  -e "\e[31mHello in Red\e[0m"
