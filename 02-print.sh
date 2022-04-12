@@ -5,8 +5,8 @@ echo Hello World
 echo Install nginx
 echo starting nginx service
 
-#Enable cloring in shell
-#echo -e "\e[COL=Message\e[0m"
+##Enable cloring in shell
+##echo -e "\e[COL=Message\e[0m"
 
 ## -e to enable \e
 ##  \e[  to enable colors
@@ -16,5 +16,5 @@ echo starting nginx service
 
 ##Color codes
 
-echo -e "\e[31mHello in Red\e[0m"
-echo -e "\e[31mHello in Red\e[0m"
+echo  -e "\e[31mHello in Red\e[0m"
+echo  -e "\e[31mHello in Red\e[0m"
