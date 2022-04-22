@@ -19,3 +19,10 @@ if [ ! -e components/${COMPONENT}.sh ]; then
 fi
 
 bash components/${COMPONENT}.sh
+
+if [ $? -ne 0 ]; then
+  echo "Download frontend Failed"
+  exit 1
+fi
+
+
