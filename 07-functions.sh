@@ -45,4 +45,4 @@ echo Value of b from main = ${b}
 # 2. You can overwrite variable from main program in function and vice versa.
 
 ### You can call one function from another function.
-
+### Examples
